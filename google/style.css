@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.heading{
+ text-align: center;
+ margin: 0;
+ scale: 0.5;
+margin-top: 55px;
+position: relative;
+top: 50px;
+}
+#isearch{
+    width: 35%;
+    height: 40px;
+    border: none;
+    outline: none;
+   border-radius: 12px;
+   background-color: rgb(220, 202, 202);
+   margin-top: 10px;
+   margin-bottom: 30px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.types span{
+    margin: 20px;
+    background-color: rgb(179, 170, 159);
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+input::placeholder{
+    margin-left: 25px;
+}
